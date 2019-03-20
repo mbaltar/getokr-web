@@ -3,13 +3,13 @@
 var serviceUrl,
     oauthUrl
 
-if (DEBUG) {
+// if (DEBUG) {
     serviceUrl = 'http://localhost:3000/api/';
     oauthUrl = 'http://localhost:3000/oauth/';
-} else {
-    serviceUrl = process.env.SERVICE_URL || 'http://54.208.140.150:3000/api/';
-    oauthUrl = process.env.OAUTH || 'http://54.208.140.150:3000/oauth/';
-}
+// } else {
+//    serviceUrl = process.env.SERVICE_URL || 'http://54.208.140.150:3000/api/';
+//    oauthUrl = process.env.OAUTH || 'http://54.208.140.150:3000/oauth/';
+// }
 
 // HOMOLOG
 // serviceUrl = 'http://34.224.30.218:3000/api/';
